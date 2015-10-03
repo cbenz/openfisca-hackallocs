@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>OpenFisca Hack&#39;allocs</title>
+  <title>OpenFisca à la CNAF</title>
   <style type="text/css">
     body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -401,55 +401,103 @@ pre .chunk {
   </div>
 
   <div class="slide" id="slide-1">
-    <section class="slide-content"><h1 id="openfisca-aux-hack-allocs">OpenFisca aux Hack&#39;allocs</h1>
-<h2 id="simuler-en-utilisant-les-donn-es-de-la-cnaf">Simuler en utilisant les données de la CNAF</h2>
+    <section class="slide-content"><h1 id="simulation-socio-fiscale">Simulation socio-fiscale</h1>
+<h2 id="avec-openfisca-la-cnaf">avec OpenFisca à la CNAF</h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="a-textual-example">A textual example</h3>
-<p>Content can be written in <strong>Markdown!</strong> New lines no longer need two angle brackets.</p>
-<p>This will be in a separate paragraph.</p>
-<p><img src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png" width="50%"></p>
-<p><a href="http://google.com">Here&#39;s a link</a>.</p>
+    <section class="slide-content"><h3 id="openfisca">OpenFisca</h3>
+<ul>
+<li>1 modèle ouvert de la législation socio-fiscale</li>
+<li>contributif / logiciel libre / dév. sur github</li>
+<li>outil neutre pour un débat public apaisé / éclairé</li>
+</ul>
+<p><a href="http://www.openfisca.fr/">http://www.openfisca.fr/</a></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><h3 id="a-list-of-things">A list of things</h3>
+    <section class="slide-content"><h3 id="jusqu-ici">Jusqu&#39;ici</h3>
 <ul>
-<li>Item 1</li>
-<li>Item B</li>
-<li>Item gamma</li>
+<li>OpenFisca simule des <em>cas types</em></li>
+<li>sous-tend des produits comme mes-aides.gouv.fr<ol>
+<li>je rentre ma situation</li>
+<li>à quelles aides ai-je droit ?</li>
+</ol>
+</li>
+<li>permet de simuler des <em>réformes</em></li>
 </ul>
-<p>No need for multiple templates! <a href="http://google.com">Another link</a>.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><h3 id="unicode">Unicode</h3>
+    <section class="slide-content"><h3 id="aujourd-hui">Aujourd&#39;hui</h3>
 <ul>
-<li>林花謝了春紅 太匆匆</li>
-<li>胭脂淚 留人醉 幾時重</li>
-<li>Matching Pairs «»‹› “”‘’「」〈〉《》〔〕</li>
-<li>Greek αβγδ εζηθ ικλμ νξοπ ρςτυ φχψω</li>
-<li>currency  ¤ $ ¢ € ₠ £ ¥</li>
+<li>OpenFisca <em>nourri</em> des données d&#39;entrée réelles</li>
+<li>calcul de l&#39;allocation de rentrée scolaire</li>
+<li>comparaison des résults OpenFisca avec les données réelles</li>
+<li>idéal pour tester les effets <em>réels</em> de réformes</li>
 </ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><h3 id="a-code-example">A code example</h3>
-<pre><code class="lang-javascript"><span class="comment">// cool looking code</span>
-<span class="keyword">var</span> func = <span class="function"><span class="keyword">function</span> <span class="params">(arg1)</span> {</span>
-    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> <span class="params">(arg2)</span> {</span>
-        <span class="keyword">return</span> <span class="string">"arg1: "</span> + arg1 + <span class="string">"arg2: "</span> + arg2;
-    };
-};
-
-console.log(func(<span class="number">1</span>)(<span class="number">2</span>)); <span class="comment">// result is three</span></code></pre>
-<p>And here is some <code>inline code</code> to check out.</p>
+    <section class="slide-content"><h3 id="perspectives">Perspectives</h3>
+<ul>
+<li>connecter OpenFisca aux données réelles CNAF</li>
+<li>de façon permanente</li>
+<li>proposer une API simulation publique</li>
+<li>proposer une interface web cliente</li>
+<li>garantir le respect de l&#39;anonymat en sortie</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-6">
+    <section class="slide-content"><h3 id="entrer-une-r-forme">Entrer une réforme</h3>
+<p><img src="reforms-tester-1.png" width="50%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-7">
+    <section class="slide-content"><h3 id="recherche">Recherche</h3>
+<ul>
+<li>Sur les personnes touchées</li>
+<li>Sur les allocataires d&#39;un département</li>
+<li>Selon la composition familiale</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><h3 id="analyse">Analyse</h3>
+<p><img src="reforms-tester-2.png" width="50%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-9">
+    <section class="slide-content"><h3 id="utilisateurs">Utilisateurs</h3>
+<ul>
+<li>chercheurs</li>
+<li>élus locaux</li>
+<li>data journalists</li>
+<li>agent public d&#39;une administration</li>
+<li>citoyen éclairé</li>
+<li>société civile (associations, think tanks)</li>
+<li>partis politiques</li>
+<li>cabinets ministériels / Parlement</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-10">
+    <section class="slide-content"><h3 id="nos-souhaits">Nos souhaits</h3>
+<ul>
+<li>après <a href="http://data.caf.fr/">http://data.caf.fr/</a><ul>
+<li><a href="http://simulation.caf.fr/openfisca/">http://simulation.caf.fr/openfisca/</a></li>
+</ul>
+</li>
+<li>organiser une journée de dév. interne CNAF</li>
+<li>itérer sur le testeur de réformes</li>
+<li>pouvoir travailler sur l&#39;ERFS anonymisé</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-11">
     <section class="slide-content"><div class="author">
-  <h1 class="name">OpenFisca Team</h1>
+  <h1 class="name">Merci, l&#39;équipe OpenFisca - Hack&#39;allocs</h1>
     <h3 class="url">
       <a href="https://github.com/cbenz/openfisca-hackallocs">https://github.com/cbenz/openfisca-hackallocs</a>
     </h3>

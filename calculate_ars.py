@@ -44,8 +44,6 @@ def read_data(path):
         ind[var].replace(0, np.nan, inplace=True)
         ind[var] = 2013 - ind[var]
 
-    # sexe_conj = ~ind['SEXE']  # inutile en fait
-
     for var in var_ages:
         age = ind[var]
         age[age == 99] = np.nan

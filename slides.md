@@ -1,59 +1,93 @@
-title: OpenFisca Hack'allocs
+title: OpenFisca à la CNAF
 author:
-  name: OpenFisca Team
+  name: Merci, l'équipe OpenFisca - Hack'allocs
   url: https://github.com/cbenz/openfisca-hackallocs
 output: slides.html
 
 --
 
-# OpenFisca aux Hack'allocs
-## Simuler en utilisant les données de la CNAF
+# Simulation socio-fiscale
+## avec OpenFisca à la CNAF
 
 --
 
-### A textual example
+### OpenFisca
 
-Content can be written in **Markdown!** New lines no longer need two angle brackets.
+- 1 modèle ouvert de la législation socio-fiscale
+- contributif / logiciel libre / dév. sur github
+- outil neutre pour un débat public apaisé / éclairé
 
-This will be in a separate paragraph.
-
-<img src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png" width="50%">
-
-[Here's a link](http://google.com).
+http://www.openfisca.fr/
 
 --
 
-### A list of things
+### Jusqu'ici
 
-* Item 1
-* Item B
-* Item gamma
-
-No need for multiple templates! [Another link](http://google.com).
-
---
-
-### Unicode
-
-* 林花謝了春紅 太匆匆
-* 胭脂淚 留人醉 幾時重
-* Matching Pairs «»‹› “”‘’「」〈〉《》〔〕
-* Greek αβγδ εζηθ ικλμ νξοπ ρςτυ φχψω
-* currency  ¤ $ ¢ € ₠ £ ¥
+- OpenFisca simule des *cas types*
+- sous-tend des produits comme mes-aides.gouv.fr
+  1. je rentre ma situation
+  1. à quelles aides ai-je droit ?
+- permet de simuler des *réformes*
 
 --
 
-### A code example
+### Aujourd'hui
 
-```javascript
-// cool looking code
-var func = function (arg1) {
-    return function (arg2) {
-        return "arg1: " + arg1 + "arg2: " + arg2;
-    };
-};
+- OpenFisca *nourri* des données d'entrée réelles
+- calcul de l'allocation de rentrée scolaire
+- comparaison des résults OpenFisca avec les données réelles
+- idéal pour tester les effets *réels* de réformes
 
-console.log(func(1)(2)); // result is three
-```
+--
 
-And here is some `inline code` to check out.
+### Perspectives
+
+- connecter OpenFisca aux données réelles CNAF
+- de façon permanente
+- proposer une API simulation publique
+- proposer une interface web cliente
+- garantir le respect de l'anonymat en sortie
+
+--
+
+### Entrer une réforme
+
+<img src="reforms-tester-1.png" width="50%">
+
+--
+
+### Recherche
+
+- Sur les personnes touchées
+- Sur les allocataires d'un département
+- Selon la composition familiale
+
+--
+
+### Analyse
+
+<img src="reforms-tester-2.png" width="50%">
+
+--
+
+### Utilisateurs
+
+- chercheurs
+- élus locaux
+- data journalists
+- agent public d'une administration
+- citoyen éclairé
+- société civile (associations, think tanks)
+- partis politiques
+- cabinets ministériels / Parlement
+
+
+--
+
+### Nos souhaits
+
+- après http://data.caf.fr/
+  - http://simulation.caf.fr/openfisca/
+- organiser une journée de dév. interne CNAF
+- itérer sur le testeur de réformes
+- pouvoir travailler sur l'ERFS anonymisé
