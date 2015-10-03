@@ -1,0 +1,28 @@
+Pourquoi le calcul de l'ARS ne marche pas:
+
+Dans AGEN on a les revenus. Dans FIL on a la composition du ménage, avec la 
+présence du conjoint ou non. 
+Mais on n'a pas les deux ensembles ce qui ne permet pas de faire un calcul exact.
+
+=> On peut inventer les variables.
+
+
+
+Le niveau de données
+* Parfois les données fournies ne sont pas des entrées d'OpenFisca
+C'est une piste d'amélioration pour OpenFisca : plus découper les calculs
+Cette ouverture de données a donc été l'occasion d'une reflexion sur le modèle.
+Par exemple, le nombre d'enfant à charge (montrer du code)
+
+* Mais quand on réflechit un peu plus
+On peut s'interroger sur les données. 
+Ce que voudrait OpenFisca, c'est la données la plus brute possible !
+Celle du calcul des prestations allocataires. Là, si on a bien compris les 
+données sont issues du calcul, ce ne sont pas celles en amont.
+La reflexion c'est de réinterroger sur les données sauvegardées.
+Par exemple toujours avec le nombre d'enfantà charge qui dépende de l'age que 
+l'on a aussi mais aussi du revenu de chacun des enfants qui doit être 
+inférieur à un certain montant. On ne peut pas faire de simulation sur ce 
+paramètre.
+
+ 
